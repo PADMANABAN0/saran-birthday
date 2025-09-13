@@ -573,32 +573,9 @@
                 right: 0;
                 top: 10px;
             }
-            
-            .carousel-container {
-            position: relative;
-            width: 100%;
-            max-width: 500px;
-            margin: 20px auto;
-            overflow: hidden;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        }
-        
-        .carousel {
-            display: flex;
-            transition: transform 0.5s ease;
-        }
-        
         .carousel-item {
             height: 600px;
-        }
-        
-        .carousel-img,video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-            
+        }    
             .next-btn {
                 padding: 10px 25px;
                 font-size: 1rem;
