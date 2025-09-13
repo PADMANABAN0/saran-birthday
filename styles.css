@@ -575,7 +575,7 @@
             }
             
             .carousel-item {
-                height: 250px;
+                height: 1000px;
             }
             
             .next-btn {
@@ -594,9 +594,10 @@
             }
             
             .carousel-item {
-                height: 200px;
+                height: 1000px;
             }
             
             .cartoon {
                 display: none;
+
             }
