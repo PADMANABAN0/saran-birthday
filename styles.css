@@ -550,37 +550,39 @@ p {
     transform: translateY(0);
 }
 
-/* Responsive Design */
+/* Mobile Responsive Design */
 @media (max-width: 768px) {
     .carousel-item {
-        height: 400px !important; /* Increased from 350px */
-    }    
+        height: 450px !important; /* Increased height for mobile */
+    }
     
     .carousel-container {
-        max-width: 100%;
-        height: 400px !important; /* Increased from 350px */
+        height: 450px !important; /* Increased height for mobile */
+    }
+    
+    .carousel-img, .carousel video {
+        object-fit: contain !important; /* Ensure full content is visible */
     }
 }
 
-/* Additional media query for very small devices */
+/* For smaller mobile devices */
 @media (max-width: 480px) {
     .carousel-item {
-        height: 350px !important; /* Increased from 300px */
+        height: 400px !important; /* Slightly smaller for very small screens */
     }
     
     .carousel-container {
-        height: 350px !important; /* Increased from 300px */
+        height: 400px !important; /* Slightly smaller for very small screens */
     }
 }
 
-/* For landscape orientation on mobile */
+/* Landscape orientation on mobile */
 @media (max-width: 768px) and (orientation: landscape) {
     .carousel-item {
-        height: 300px !important; /* Increased from 250px */
+        height: 350px !important; /* Adjusted for landscape */
     }
     
     .carousel-container {
-        height: 300px !important; /* Increased from 250px */
-        max-width: 80%;
+        height: 350px !important; /* Adjusted for landscape */
     }
 }
