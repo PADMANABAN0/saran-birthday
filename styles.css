@@ -589,8 +589,10 @@
     }
     
     .carousel-img, .carousel video {
-        object-fit: contain; /* Ensures full image is visible */
-        background: #000; /* Black background for letterboxing */
+        width: 100% !important; /* Force full width */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Fill the container */
+        background: #000; /* Black background for any empty space */
     }
 }
 
@@ -617,6 +619,11 @@
         height: 35px;
         font-size: 18px;
     }
+    
+    .carousel-img, .carousel video {
+        width: 100% !important;
+        max-height: 350px;
+    }
 }
 
 /* For landscape orientation on mobile */
@@ -632,5 +639,10 @@
     
     .container {
         padding: 10px;
+    }
+    
+    .carousel-img, .carousel video {
+        width: 100% !important;
+        height: 300px;
     }
 }
