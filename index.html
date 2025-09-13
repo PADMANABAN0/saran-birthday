@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="icon" type="image/png" href="C:\Users\Param\Downloads\pngtree-vector-cake-icon-png-image_563166.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Page 1: Welcome -->
+    <div id="page1" class="page active">
+        <div class="container">
+            <h1>Happy Birthday!</h1>
+            <h2>Saranya Paithiyam💜✨</h2>
+            <p>Wishing you a day filled with happiness and a year filled with joy!</p>
+            <p>Make a wish and blow out(Touch the candle) the candle!</p>
+            
+            <div class="cake-container">
+                
+                <div class="cake">
+                    <div class="cake-base"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-top"></div>
+                    <div class="candle" id="candle"></div>
+                    <div class="flame" id="flame"></div>
+                    <div class="smoke" id="smoke"></div>
+                    
+                    <!-- Cake decorations -->
+                    <div class="decoration" style="top: 40px; left: 40px; background: #ff9a9e; animation-delay: 0s;"></div>
+                    <div class="decoration" style="top: 60px; left: 80px; background: #a1c4fd; animation-delay: 0.5s;"></div>
+                    <div class="decoration" style="top: 30px; right: 50px; background: #ffde7a; animation-delay: 1s;"></div>
+                    <div class="decoration" style="top: 70px; right: 80px; background: #c2e9fb; animation-delay: 1.5s;"></div>
+                </div>
+                
+                <div class="wish-message" id="wishMessage">Your wish will come true! 🎉</div>
+            </div>
+            
+            <button class="next-btn" onclick="showPage(2)">Let's Start <i class="fas fa-arrow-right"></i></button>
+        </div>
+        
+        <!-- Animated Cartoons -->
+        <div class="cartoon bunny">
+            <div class="bunny-body">
+                <div class="bunny-ear left"></div>
+                <div class="bunny-ear right"></div>
+                <div class="bunny-eye left"></div>
+                <div class="bunny-eye right"></div>
+                <div class="bunny-mouth"></div>
+            </div>
+        </div>
+        
+        <div class="cartoon bear">
+            <div class="bear-body">
+                <div class="bear-ear left"></div>
+                <div class="bear-ear right"></div>
+                <div class="bear-eye left"></div>
+                <div class="bear-eye right"></div>
+                <div class="bear-nose"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 2: Main Birthday Wishes -->
+    <div id="page2" class="page">
+        <div class="container">
+            <h1>Happy Birthday!</h1>
+            <h2>Saranya Paithiyam💜✨</h2>
+            <p>Wish you many more happy returns of the day eruma🍰💙✨.Onn life la nan eppdinu theriyathu but ennaku neariya edathula support ah 
+                iruntha athu mattum ilama nan inniku ivaloo thooram irukean na athuku neeum oru karnam than life la eppavum happy ah iru jolly
+                enjoy pannu itha nan sollanum ila nee enjoy pannitu than iruka😂.Best wishes for my best friend Happy birthday Paithiyam💜✨.Ithu 
+                nanea onnakaga create panna web page ippadi irukunu sollu😁.
+            </i></p>
+            <p>May your day be filled with laughter, love, and wonderful moments.</p>
+            
+            <button class="next-btn" onclick="showPage(3)">View Memories <i class="fas fa-images"></i></button>
+        </div>
+    </div>
+
+    <!-- Page 3: Photo Gallery -->
+    <div id="page3" class="page">
+        <div class="container">
+            <h2>Me💙 and You💜</h2>
+            <p>Namma neriya memories create pannirukom athula konjam ithula iruku</p>
+            
+            <div class="carousel-container">
+                <div class="carousel" id="carousel">
+                    <div class="carousel-item">
+                        <img src="images\.Picsart_23-08-29_16-36-25-755.jpg" alt="Birthday celebration" class="carousel-img">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="images/IMG_20230829_155509.jpg" alt="Party time" class="carousel-img">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="images/IMG_20250125_161608619_HDR.jpg" alt="Cake moment" class="carousel-img">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="images/IMG_20250417_112208253_HDR.jpg" alt="Gifts" class="carousel-img">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/IMG_20250905_114701869.jpg" alt="Gifts" class="carousel-img">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/IMG-20250705-WA0021.jpg" alt="Gifts" class="carousel-img">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/IMG-20250705-WA0023.jpg" alt="Gifts" class="carousel-img">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/IMG-20250705-WA0024.jpg" alt="Gifts" class="carousel-img">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/Snapchat-775862639.jpg" alt="Gifts" class="carousel-img">
+                    </div>
+
+                    <div class="carousel-item">
+                        <video width="100%" height="1000px" controls>
+                        <source src="images/km_20230903_1080p.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="carousel-item">
+                        <video width="100%" height="1000px" controls>
+                        <source src="images/saranya singing.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="carousel-item">
+                        <video width="100%" height="1000px" controls>
+                        <source src="images/VID-20250905-WA0102.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="carousel-item">
+                        <video width="100%" height="1000px" controls>
+                        <source src="images/WhatsApp Video 2025-02-04 at 23.10.11_c7b3ddad.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                
+                <button class="carousel-btn prev" onclick="moveCarousel(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <button class="carousel-btn next" onclick="moveCarousel(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <div class="carousel-dots" id="carousel-dots"></div>
+            </div>
+            
+            <button class="next-btn" onclick="showPage(1)">Start Over <i class="fas fa-redo"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
