@@ -548,12 +548,18 @@
         
        /* Responsive Design */
 @media (max-width: 768px) {
+    * {
+        font-family: 'Times New Roman', Times, serif !important;
+    }
+    
     h1 {
         font-size: 2.2rem;
+        font-family: 'Times New Roman', Times, serif !important;
     }
     
     p {
         font-size: 1.1rem;
+        font-family: 'Times New Roman', Times, serif !important;
     }
     
     .container {
@@ -575,12 +581,13 @@
     }
     
     .carousel-item {
-        height: 400px; /* Optimized for mobile viewing */
+        height: 400px;
     }    
     
     .next-btn {
         padding: 10px 25px;
         font-size: 1rem;
+        font-family: 'Times New Roman', Times, serif !important;
     }
     
     .carousel-container {
@@ -589,17 +596,21 @@
     }
     
     .carousel-img, .carousel video {
-        width: 100% !important; /* Force full width */
-        height: auto; /* Maintain aspect ratio */
-        object-fit: cover; /* Fill the container */
-        background: #000; /* Black background for any empty space */
+        width: 100% !important;
+        height: auto;
+        object-fit: cover;
+        background: #000;
+    }
+    
+    .wish-message {
+        font-family: 'Times New Roman', Times, serif !important;
     }
 }
 
 /* Additional media query for very small devices */
 @media (max-width: 480px) {
     .carousel-item {
-        height: 350px; /* Slightly smaller for very small screens */
+        height: 350px;
     }
     
     .carousel-container {
@@ -611,7 +622,7 @@
     }
     
     .cake {
-        transform: scale(0.8); /* Scale down cake on very small screens */
+        transform: scale(0.8);
     }
     
     .carousel-btn {
