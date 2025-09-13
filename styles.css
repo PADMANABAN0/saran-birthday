@@ -547,7 +547,7 @@
         }
         
         /* Responsive Design */
-        @media (max-width: 600px) {
+        @media {
             h1 {
                 font-size: 2.2rem;
             }
@@ -590,8 +590,7 @@
         }
         
         .carousel-item {
-            min-width: 100%;
-            height: 1000px;
+            height: 600px;
         }
         
         .carousel-img,video {
@@ -606,19 +605,3 @@
             }
         }
         
-        @media (max-width: 400px) {
-            h1 {
-                font-size: 1.8rem;
-            }
-            
-            p {
-                font-size: 1rem;
-            }
-            
-            .carousel-item {
-                height: 200px;
-            }
-            
-            .cartoon {
-                display: none;
-            }
