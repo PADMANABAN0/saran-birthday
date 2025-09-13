@@ -575,7 +575,7 @@
     }
     
     .carousel-item {
-        height: 500px; /* Reduced from 600px for better mobile viewing */
+        height: 600px; /* Reduced from 600px for better mobile viewing */
     }    
     
     .next-btn {
@@ -587,7 +587,7 @@
 /* Additional media query for very small devices */
 @media (max-width: 480px) {
     .carousel-item {
-        height: 350px; /* Even smaller height for very small screens */
+        height: 450px; /* Even smaller height for very small screens */
     }
     
     h1 {
