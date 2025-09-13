@@ -546,39 +546,55 @@
             transform: translateY(0);
         }
         
-        /* Responsive Design */
-        @media {
-            h1 {
-                font-size: 2.2rem;
-            }
-            
-            p {
-                font-size: 1.1rem;
-            }
-            
-            .container {
-                padding: 15px;
-            }
-            
-            .cartoon {
-                transform: scale(0.7);
-            }
-            
-            .bunny {
-                left: 0;
-                bottom: 10px;
-            }
-            
-            .bear {
-                right: 0;
-                top: 10px;
-            }
-        .carousel-item {
-            height: 600px;
-        }    
-            .next-btn {
-                padding: 10px 25px;
-                font-size: 1rem;
-            }
-        }
-        
+       /* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    p {
+        font-size: 1.1rem;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+    
+    .cartoon {
+        transform: scale(0.7);
+    }
+    
+    .bunny {
+        left: 0;
+        bottom: 10px;
+    }
+    
+    .bear {
+        right: 0;
+        top: 10px;
+    }
+    
+    .carousel-item {
+        height: 300px; /* Reduced from 600px for better mobile viewing */
+    }    
+    
+    .next-btn {
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+}
+
+/* Additional media query for very small devices */
+@media (max-width: 480px) {
+    .carousel-item {
+        height: 250px; /* Even smaller height for very small screens */
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .cake {
+        transform: scale(0.8); /* Scale down cake on very small screens */
+    }
+}
