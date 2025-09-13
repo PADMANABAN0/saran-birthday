@@ -552,6 +552,9 @@ p {
 
 /* Mobile Responsive Design */
 @media (max-width: 768px) {
+    body, h1, h2, h3, h4, h5, h6, p, span, div, .next-btn, .wish-message {
+        font-family: 'Times New Roman', Times, serif !important;
+    }
     .carousel-item {
         height: 450px !important; /* Increased height for mobile */
     }
@@ -567,6 +570,9 @@ p {
 
 /* For smaller mobile devices */
 @media (max-width: 480px) {
+    body, h1, h2, h3, h4, h5, h6, p, span, div, .next-btn, .wish-message {
+        font-family: 'Times New Roman', Times, serif !important;
+    }
     .carousel-item {
         height: 400px !important; /* Slightly smaller for very small screens */
     }
@@ -578,6 +584,9 @@ p {
 
 /* Landscape orientation on mobile */
 @media (max-width: 768px) and (orientation: landscape) {
+    body, h1, h2, h3, h4, h5, h6, p, span, div, .next-btn, .wish-message {
+        font-family: 'Times New Roman', Times, serif !important;
+    }
     .carousel-item {
         height: 350px !important; /* Adjusted for landscape */
     }
